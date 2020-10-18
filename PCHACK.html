@@ -1,0 +1,280 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <title>Hidden eye</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <link href="https://fonts.googleapis.com/css?family=Rubik:300,400,700|Oswald:400,700" rel="stylesheet">
+
+  <link rel="stylesheet" href="fonts/icomoon/style.css">
+
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/jquery.fancybox.min.css">
+  <link rel="stylesheet" href="css/owl.carousel.min.css">
+  <link rel="stylesheet" href="css/owl.theme.default.min.css">
+  <link rel="stylesheet" href="fonts/flaticon/font/flaticon.css">
+  <link rel="stylesheet" href="css/aos.css">
+
+  <!-- MAIN CSS -->
+  <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
+
+  <div class="site-wrap">
+
+    <div class="site-mobile-menu site-navbar-target">
+      <div class="site-mobile-menu-header">
+        <div class="site-mobile-menu-close mt-3">
+          <span class="icon-close2 js-menu-toggle"></span>
+        </div>
+      </div>
+      <div class="site-mobile-menu-body"></div>
+    </div>
+
+
+    
+
+    <header class="site-navbar js-sticky-header site-navbar-target" role="banner">
+
+      <div class="container">
+        <div class="row align-items-center position-relative">
+
+
+          <div class="site-logo">
+            <a href="index.html" class="text-black"><span class="text-primary">Network Infotech Solution</a>
+            </div>
+            
+            <div class="col-12">
+              <nav class="site-navigation text-right ml-auto " role="navigation">
+                <ul class="site-menu main-menu js-clone-nav ml-auto d-none d-lg-block">
+                <li><a href="index.html#home-section" class="nav-link">Home</a></li>
+ <li><a href="index.html#services-section" class="nav-link">Services</a></li> 
+
+                  
+                    <li><a href="index.html#about-section" class="nav-link">About</a></li>
+
+                  <li><a href="index.html#testimonials-section" class="nav-link">Testimonials</a></li>
+                  <li><a href="index.html#blog-section" class="nav-link">Blog</a></li>
+                  <li><a href="index.html#contact-section" class="nav-link">Contact</a></li>
+                </ul>
+                
+              </nav>
+
+            </div>
+
+            <div class="toggle-button d-inline-block d-lg-none"><a href="#" class="site-menu-toggle py-5 js-menu-toggle text-black"><span class="icon-menu h3"></span></a></div>
+
+          </div>
+        </div>
+
+      </header>
+
+      <div class="site-section-cover overlay inner-page bg-light" style="background-image: url('images/1.png')" data-aos="fade">
+
+        <div class="container">
+          <div class="row align-items-center justify-content-center text-center">
+            <div class="col-lg-10">
+
+              <div class="box-shadow-content">
+                <div class="block-heading-1">
+                  <span class="d-block mb-3 text-white" data-aos="fade-up">October 20th, 2020 <span class="mx-2 text-primary">&bullet;</span> by Sugam Agrawal</span>
+                  <h1 class="mb-4" data-aos="fade-up" data-aos-delay="100">How to hack someone else's computer remotely using a picture.</h1>
+                </div>
+
+
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+
+
+      <section class="site-section">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-8 blog-content">
+              <p class="lead">In this article, With the use of FakeImageExploiter tool, you can access a remote computer using a payload embedded in an image file.</p>
+              
+              <a href="PCHACK.html" class="mb-4 d-block"><img src="images/PCIMAGE/first.png" alt="Image" class="img-fluid rounded"></a>
+              
+              <p><h6>This tool takes one existing image.jpg file and one payload.exe file (user input) and creates a new payload (agent.jpg.exe) that, when launched, initiates the download of the 2 previous files stored on the apache2 web server (. jpg + payload.exe). This module also changes the agent icon to match a single file.jpg icon. Then uses 'hide - known file extensions' to hide the .exe extension (final: agent.jpg.exe)</h6></p>
+              <p><h2 class="text-primary"  >Using:</h2></p>
+
+              <blockquote><p>FakeImageExploiter - Stores all files in apache2, creating an archive, starts apache2 and Metasploit services (handler) and provides a URL to be sent to the target device. As soon as the user runs the executable, our picture will be loaded and opened in the default image viewer, afterwards the malicious information will be executed and we will have an active meterpreter session.
+                </br></br>But it also saves the agent (not zip) to the FakeImageExploiter / output folder if we want to deliver agent.jpg.exe using a different attack vector.
+                </br></br>This tool also creates a cleaner.rc file to remove payloads left on the target host. I advise you to migrate to another process before using it.
+                </br></br> Supported distributions: Linux Ubuntu, Kali, Mint, Parrot OS</p></blockquote>
+
+                <p><h2 class="text-primary"  >Dependencies:</h2></p>
+
+              <blockquote><p>
+                  <ul>
+                      <li>Xterm, zenity, apache2, mingw32 [64], ResourceHacker (wine)</li>
+                      <li>Automatic installation of ResourceHacker.exe to ../.wine/Program Files /…</li>
+                  </ul>
+              </p></blockquote>
+
+            <div>
+                <h3><strong>Installation:</strong></h3>
+              <div style="display: inline-block; border:2px solid Black;">
+                &nbsp;&nbsp;&nbsp;&nbsp;git clone https://github.com/r00t-3xp10it/FakeImageExploiter&nbsp;&nbsp;&nbsp;&nbsp;<br></br>
+
+                &nbsp;&nbsp;&nbsp;&nbsp;cd FakeImageExploiter<br></br>
+
+                &nbsp;&nbsp;&nbsp;&nbsp;chmod + x FakeNameExlpoiter.sh<br></br>
+
+                &nbsp;&nbsp;&nbsp;&nbsp; ./FakeImageExploiter.sh<br></br>
+
+              </div>
+          </div>
+            <h3><strong>Running :</strong></h3>
+              <p><strong>Before starting it is necessary:</strong></p>
+              <p><strong>Create a payload (using the methods available to you, Veil-Evasion, Metasploit, Venom, I have listed not the most reliable ones, but it will work for the test)</strong></p>
+              <p><strong>Download any image in .jpg format</strong></p>
+              <p><strong>As a test, I will use (the payload generator will be Veil-Evasion) type - python / meterpreter / rev_https.</strong></p>
+              <a href="PCHACK.html" class="mb-4 d-block"><img src="images/PCIMAGE/ins1.jpg" alt="Image" class="img-fluid rounded"></a>
+              <p><strong>Everything is ready to create the final file - archive:</strong></p>
+              <a href="PCHACK.html" class="mb-4 d-block"><img src="images/PCIMAGE/ins2.jpg" alt="Image" class="img-fluid rounded"></a>
+              <p><strong>We will combine these files into one archive. Launch FakeImageExploiter:</strong></p>
+              <div style="display: inline-block; border:2px solid Black;">> ./FakeImageExploiter.sh</div></br>
+              <a href="PCHACK.html" class="mb-4 d-block"><img src="images/PCIMAGE/ins3.jpg" alt="Image" class="img-fluid rounded"></a>
+              <p><strong>Click ok, choosing Windows 7. For the program to work correctly, you need ResourceHacker, if it is not installed, the program will install it itself:</strong></p>
+              <a href="PCHACK.html" class="mb-4 d-block"><img src="images/PCIMAGE/ins4.jpg" alt="Image" class="img-fluid rounded"></a>
+              <p><strong>When everything is ready, we launch the framework:</strong></p>
+              <a href="PCHACK.html" class="mb-4 d-block"><img src="images/PCIMAGE/ins5.png" alt="Image" class="img-fluid rounded"></a>
+              <p><strong>After the necessary services are launched, we will be asked to select the payload first, and then the image. There is also such a moment, in order to use the payload in the .exe format, you need to change the following in the settings file:</strong></p>
+              <a href="PCHACK.html" class="mb-4 d-block"><img src="images/PCIMAGE/ins6.png" alt="Image" class="img-fluid rounded"></a>
+              <p><strong>On:</strong></p>
+              <a href="PCHACK.html" class="mb-4 d-block"><img src="images/PCIMAGE/ins7.png" alt="Image" class="img-fluid rounded"></a>
+              <p><strong>Following the prompts, we create an archive and a link to it on the web server:</strong></p>
+              <a href="PCHACK.html" class="mb-4 d-block"><img src="images/PCIMAGE/ins8.jpg" alt="Image" class="img-fluid rounded"></a>
+              <p><strong>Now it remains to share the link with our target host:</strong></p>
+              <a href="PCHACK.html" class="mb-4 d-block"><img src="images/PCIMAGE/ins9.png" alt="Image" class="img-fluid rounded"></a>
+              <p><strong>Downloading the archive:.</strong></p>
+              <a href="PCHACK.html" class="mb-4 d-block"><img src="images/PCIMAGE/ins10.png" alt="Image" class="img-fluid rounded"></a>
+              <p><strong>We unpack and start viewing the image.</strong></p>
+              <a href="PCHACK.html" class="mb-4 d-block"><img src="images/PCIMAGE/ins11.png" alt="Image" class="img-fluid rounded"></a>
+              <p><strong>All, of course, nothing, but it is clear that this application, Windows 8 swears, I have not tried it on younger versions. In general, it's not bad if you approach with imagination, you can benefit.
+                  </br></br>And of course, an active meterpreter session opens:
+              </strong></p>
+              <a href="PCHACK.html" class="mb-4 d-block"><img src="images/PCIMAGE/ins12.png" alt="Image" class="img-fluid rounded"></a> 
+              <p><strong>In the task manager, this abomination looks like this:</strong></p>
+              <a href="PCHACK.html" class="mb-4 d-block"><img src="images/PCIMAGE/ins13.png" alt="Image" class="img-fluid rounded"></a>
+              <p> If readers would like to use the information for personal gain, then the author is not responsible for any harm or damage caused.<br>Note - This is for educational purpose only..</p>
+              <div class="pt-5">
+                <p>Categories:  <a href="#">Hacking</a>, <a href="#">Events</a>  Tags: <a href="#">#Kali</a>, <a href="#">#hiddeneye</a></p>
+              </div>
+
+
+
+            </div>
+            <div class="col-md-4 sidebar"><!--
+             <div class="sidebar-box">
+                <div class="categories">
+                  <h3>Categories</h3>
+                  <li><a href="#">Creatives <span>(12)</span></a></li>
+                  <li><a href="#">News <span>(22)</span></a></li>
+                  <li><a href="#">Design <span>(37)</span></a></li>
+                  <li><a href="#">HTML <span>(42)</span></a></li>
+                  <li><a href="#">Web Development <span>(14)</span></a></li>
+                </div>
+              </div>-->
+              <div class="sidebar-box">
+                <img src="images/person_2.png" alt="Image" class="img-fluid mb-4 w-50 rounded-circle">
+                <h3 class="text-black">About The Author</h3>
+                <p><b>Sugam Agrawal</b><br>Programmer, <br>Aspiring Ethical Hacker, <br>Developer</p>
+              </div>
+
+              <div class="sidebar-box">
+                <h3>Other blogs by Sugam Agrawal</h3>
+                <p>Coming soon</p>
+              </div>
+              <div class="sidebar-box">
+                <h3>Our Latest Blog</h3>
+                <p><p><a href="c_lang part_1.html">Basics of C Language</a></p></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+<footer class="site-footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <div class="row">
+              <div class="col-md-8">
+                <h2 class="footer-heading mb-4">About Us</h2>
+                <p>Service based startup.<br>People making technology work.</p>
+              </div>
+              <div class="col-md-4 ml-auto">
+                <h2 class="footer-heading mb-4">Features</h2>
+                <ul class="list-unstyled">
+
+                  <li><a href="index.html#about-section">About Us</a></li>
+                  <li><a href="index.html#testimonials-section">Testimonials</a></li>
+                  <li><a href="index.html#contact-section">Contact Us</a></li>
+                </ul>
+              </div>
+
+            </div>
+          </div>
+          <div class="col-md-4 ml-auto">
+
+            
+
+            <div class="mb-5">
+              <h2 class="footer-heading mb-4">Subscribe to Newsletter</h2>
+              <form action="https://formspree.io/mgepwyeq" method="POST" method="post" class="footer-suscribe-form">
+                <div class="input-group mb-3">
+                  <input type="text" name="_replyto" class="form-control border-secondary text-white bg-transparent" placeholder="Enter Email" aria-label="Enter Email" aria-describedby="button-addon2">
+                  <div class="input-group-append">
+                    <input type="hidden" name="_subject" value="Newsletter Subscription">
+                    <button class="btn btn-primary text-white" type="submit" id="button-addon2" value="Submit">Subscribe</button>
+                  </div>
+                </div>
+              </div>
+
+            
+
+              <h2 class="footer-heading mb-4">Follow Us</h2>
+              <a href="https://www.facebook.com/code.hackers.75" target="_blank" class="smoothscroll pl-0 pr-3"><span class="icon-facebook" ></span></a>
+              <a href="https://www.instagram.com/code_hackerz/" target="_blank" class="pl-3 pr-3"><span class="icon-instagram"></span></a>
+            </form>
+          </div>
+        </div>
+          <div class="row pt-5 mt-5 text-center">
+            <div class="col-md-12">
+              <div class="border-top pt-5">
+                <p class="copyright"><small>
+                  <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                  Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="icon-heart text-danger" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank" >Colorlib</a> and Github.
+                  <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                </small></p>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </footer>
+
+    </div>
+
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/jquery.sticky.js"></script>
+    <script src="js/jquery.waypoints.min.js"></script>
+    <script src="js/jquery.animateNumber.min.js"></script>
+    <script src="js/jquery.easing.1.3.js"></script>
+    <script src="js/aos.js"></script>
+
+    <script src="js/main.js"></script>
+
+  </body>
+  </html>
